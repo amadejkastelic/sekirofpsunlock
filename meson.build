@@ -9,4 +9,5 @@ executable('sekirofpsunlock',
            'src/sekiro.c',
            'src/fps.c',
            'src/resolution.c',
-           c_args : c_args)
+           c_args : c_args,
+           install : true)
